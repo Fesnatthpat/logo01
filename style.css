@@ -279,7 +279,7 @@ body {
 
 .footer-con2 {
     width: 1200px;
-    height: auto;
+    /* height: auto; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -288,10 +288,15 @@ body {
 
 .footer-items {
     /* width: 400px; */
-    margin: 20px;
+    padding: 20px;
     display: flex;
     color: white;
     /* border: 1px solid red; */
+}
+
+.footer-items p {
+    /* padding: 0 50px; */
+    width: 300px;
 }
 
 .items-1, .items-2, .items-3, .items-4, .items-5 {
