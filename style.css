@@ -6,6 +6,11 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: #e7e7e7;
+}
+
+.bg {
+    /* background-color: #e4e4e4; */
 }
 
 .navbar {
@@ -29,6 +34,7 @@ body {
 .nav-links {
     display: flex;
     list-style: none;
+    text-align: center;
 }
 
 .nav-links li {
@@ -140,16 +146,28 @@ body {
 }
 
 .box-items {
-    border: 1px solid gray;
+    border: 1px solid transparent;
+    background-color: #ffffff;
+    box-shadow: 0 0px 5px gray;
     border-radius: 5px;
 }
 
 .box-items:hover {
-    box-shadow: 0 0 5px gray;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 5px rgb(56, 56, 56);
 }
 
 .box-text {
-    margin: 15px 10px;
+    margin: 10px 10px;
+}
+
+.box-text h2 {
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.box-text span {
+    color: gray;
 }
 
 .btn-buy {
@@ -159,7 +177,7 @@ body {
     color: white;
     border: 1px solid transparent;
     border-radius: 10px;
-    transition: all ease-in-out 0.5s;
+    transition: 0.3s;
 }
 
 .btn-buy:hover {
@@ -224,9 +242,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 8px 15px;
     /* width: 400px; */
     border-radius: 5px;
+    background-color: #ffffff;
     /* border: 1px solid black; */
     box-shadow: 5px 4px 1px gray;
 }
@@ -234,6 +253,14 @@ body {
 .flex-icons i {
     font-size: 40px;
     margin-right: 20px;
+}
+
+.flex-detail-con h2 {
+    color: #000;
+}
+
+.flex-detail-con span {
+    color: gray;
 }
 
 .menu-products-con {
@@ -301,6 +328,7 @@ body {
 
 .items-1, .items-2, .items-3, .items-4, .items-5 {
     position: relative;
+    box-shadow: 0 0 5px gray;
 }
 
 .items-detail-con-1, .items-detail-con-2, .items-detail-con-3, .items-detail-con-4, .items-detail-con-5 {
@@ -331,6 +359,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 20px;
+    background-color: #ffffff;
 }
 
 .btn-seemore:hover {
@@ -452,7 +481,7 @@ body {
     .footer-con2 {
         flex-direction: column;
         /* margin: 50px; */
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 }
 
@@ -465,6 +494,10 @@ body {
 
     .box-con {
         /* margin: 10px 20px; */
+        padding: 0 20px;
+    }
+
+    .image-items-con2 {
         padding: 0 20px;
     }
 }
