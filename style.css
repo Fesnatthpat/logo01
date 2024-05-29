@@ -352,13 +352,14 @@ body {
 }
 
 .btn-seemore {
-    padding: 10px 20px;
+    padding: 10px;
     border-radius: 10px;
     border: 1px solid transparent;
     transition: all ease-in-out 0.3s;
     text-transform: uppercase;
     font-weight: bold;
     margin-top: 20px;
+    color: #000000;
     background-color: #ffffff;
 }
 
@@ -366,6 +367,23 @@ body {
     color: aliceblue;
     background-color: #333;
 }
+
+.items-detail-con-1 h3, 
+.items-detail-con-2 h3, 
+.items-detail-con-3 h3, 
+.items-detail-con-4 h3, 
+.items-detail-con-5 h3{
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.items-detail-con-1 p, 
+.items-detail-con-2 p, 
+.items-detail-con-3 p, 
+.items-detail-con-4 p, 
+.items-detail-con-5 p{
+    color: rgb(211, 211, 211);
+} 
 
 @media (max-width: 768px) {
     .nav-links {
@@ -376,6 +394,10 @@ body {
         top: 50px;
         left: 0;
         background-color: #333;
+    }
+
+    .hero-con1 {
+        height: 500px;
     }
 
     .navbar {
